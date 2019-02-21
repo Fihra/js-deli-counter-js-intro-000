@@ -36,6 +36,6 @@ function currentLine(line){
       peopleInLine = `The line is currently: ${lineCounter}. ${line[counter]}, `;
 
 
-    }return peopleInLine;
-  }//return "The line is currently: " + peopleInLine;
+    }
+  }return peopleInLine;
 }
