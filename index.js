@@ -39,5 +39,5 @@ function currentLine(line){
       }
       peopleInLine += `${lineCounter}. ${line[counter]}, `;
     }
-  }return peopleInLine;
-}
+  }
+}return peopleInLine;
