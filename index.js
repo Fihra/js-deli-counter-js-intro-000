@@ -34,6 +34,7 @@ function currentLine(katzDeliLine){
     var peopleInLine;
     for(var counter = 1; counter < katzDeliLine.length; counter++){
       peopleInLine = `${counter}. ${katzDeliLine[counter]}, `;
+      return "The line is currently: " + peopleInLine;
     }
-  }return "The line is currently: " + peopleInLine;
+  }//return "The line is currently: " + peopleInLine;
 }
