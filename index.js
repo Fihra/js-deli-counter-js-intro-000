@@ -34,7 +34,7 @@ function currentLine(line){
     var peopleInLine;
     for(var counter = 0, lineCounter = 1; counter < line.length; counter++, lineCounter++){
       //peopleInLine = `${lineCounter}. ${line[counter]}, `;
-      return `The line is currently:${lineCounter}. ${line[counter]}, `;
+      return `The line is currently: ${lineCounter}. ${line[counter]}, `;
     }
   }//return "The line is currently: " + peopleInLine;
 }
