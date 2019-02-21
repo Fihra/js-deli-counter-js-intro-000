@@ -31,10 +31,10 @@ function currentLine(line){
     return "The line is currently empty.";
   }
   if(line.length > 0){
-    var peopleInLine;
+    var peopleInLine = 'The line is currently: ';
     for(var counter = 0, lineCounter = 1; counter < line.length; counter++, lineCounter++){
-      //peopleInLine = `${lineCounter}. ${line[counter]}, `;
-      return `The line is currently: ${lineCounter}. ${line[counter]}, `;
+      
+      peopleInLine += ` ${lineCounter}. ${line[counter]}, `;
     }
-  }//return "The line is currently: " + peopleInLine;
+  }return peopleInLine;
 }
