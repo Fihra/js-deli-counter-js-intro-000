@@ -26,14 +26,14 @@ function nowServing(katzDeliLine){
 
 }
 
-function currentLine(katzDeliLine){
-  if(katzDeliLine.length === 0){
+function currentLine(line){
+  if(line.length === 0){
     return "The line is currently empty.";
   }
-  if(katzDeliLine.length > 0){
+  if(line.length > 0){
     var peopleInLine;
-    for(var counter = 0; counter < katzDeliLine.length; counter++){
-      peopleInLine = `${counter+1}. ${katzDeliLine[counter]}, `;
+    for(var counter = 0; counter < line.length; counter++){
+      peopleInLine = `${counter+1}. ${line[counter]}, `;
 
     }return "The line is currently: " + peopleInLine;
   }//return "The line is currently: " + peopleInLine;
